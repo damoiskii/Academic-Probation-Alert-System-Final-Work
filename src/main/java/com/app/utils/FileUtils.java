@@ -156,6 +156,6 @@ public class FileUtils {
     }
 
     public static boolean isLinux() {
-        return System.getProperty("os.name").toLowerCase().startsWith("linux");
+        return System.getProperty("os.name").toLowerCase().contains("linux");
     }
 }

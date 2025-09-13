@@ -282,6 +282,7 @@ public class GenerateReportDialog extends JDialog {
                                 // animatedPanel.updateLabel("Opening document");
 
                                 try {
+//                                    FileUtils.openDocumentBackup(FileUtils.GeneratedReportFilename);
                                     FileUtils.openDocument(FileUtils.GeneratedReportFilename);
 
                                     // Close the dialog
